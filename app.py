@@ -71,5 +71,5 @@ if st.button("Predict Placement"):
 st.divider()
 
 st.caption(
-    "Built by Ayush Sharma using Streamlit, Scikit-Learn and Logistic Regression."
+    "Built by Ayush Sankhyan."
 )
