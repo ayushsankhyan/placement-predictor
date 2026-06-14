@@ -1,95 +1,110 @@
-# placement-predictor
 # 🎓 Placement Prediction System
 
-## Overview
+## 🌐 Live Demo
 
-A Machine Learning web application that predicts whether a student is likely to be placed based on their CGPA and IQ score.
+**Try the app here:**
 
-The project uses Logistic Regression for classification, StandardScaler for feature preprocessing, and Streamlit for deployment as an interactive web application.
+https://placement-predictorbranchmainmainfileapppy-jsq7bmjfcngpzg9nuak.streamlit.app/
+---
+
+## 📌 Project Overview
+
+The Placement Prediction System is a Machine Learning web application that predicts whether a student is likely to be placed based on:
+
+* CGPA
+* IQ Score
+
+The application uses Logistic Regression for classification and Streamlit for deployment.
 
 ---
 
-## Features
+## 🚀 Features
 
-* Predicts placement outcome (Placed / Not Placed)
-* Uses CGPA and IQ as input features
-* Real-time prediction through a web interface
-* Displays placement probability
-* Deployed using Streamlit Cloud
+* Interactive web interface
+* Real-time placement prediction
+* Placement probability score
+* Feature scaling using StandardScaler
+* Cloud deployment using Streamlit
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
+
+### Machine Learning
 
 * Python
-* Streamlit
 * Scikit-Learn
+* Logistic Regression
 * NumPy
 * Pandas
 
----
+### Deployment
 
-## Machine Learning Workflow
-
-1. Data Preprocessing
-2. Feature Scaling using StandardScaler
-3. Model Training using Logistic Regression
-4. Model Serialization using Pickle
-5. Deployment using Streamlit
+* Streamlit Cloud
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
+```text
 placement-predictor/
-
+│
 ├── app.py
-
 ├── model.pkl
-
 ├── scaler.pkl
-
 ├── requirements.txt
-
+├── runtime.txt
 ├── README.md
-
 └── .gitignore
+```
 
 ---
 
-## Installation
+## ⚙️ Machine Learning Workflow
 
-Clone the repository:
-
-git clone https://github.com/ayushsankhyan/placement-predictor.git
-
-Move into the project directory:
-
-cd placement-predictor
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the application:
-
-streamlit run app.py
+1. Data Collection
+2. Data Preprocessing
+3. Feature Scaling using StandardScaler
+4. Model Training using Logistic Regression
+5. Model Serialization using Pickle
+6. Deployment using Streamlit Cloud
 
 ---
 
-## Future Improvements
+## 📊 Input Features
 
-* Better UI/UX design
-* Additional student performance features
-* Multiple ML model comparison
-* Visualization dashboard
-* Placement analytics
+| Feature | Description                 |
+| ------- | --------------------------- |
+| CGPA    | Academic Performance        |
+| IQ      | Intelligence Quotient Score |
 
 ---
 
-## Author
+## 📈 Output
 
-Ayush Sankhyan
+The application predicts:
 
-Computer Science Engineering
-with specialization in AIML
+* ✅ Likely to be Placed
+* ❌ Likely Not to be Placed
+
+and displays a placement probability score.
+
+---
+
+## 🔮 Future Improvements
+
+* Add more placement-related features
+* Compare multiple ML algorithms
+* Improve UI/UX design
+* Add data visualizations
+* Deploy with database integration
+
+---
+
+## 👨‍💻 Author
+
+**Ayush Sankhyan**
+B.E. Computer Science Engineering
+Chandigarh University (2026)
+
+GitHub: https://github.com/ayushsankhyan
